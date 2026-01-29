@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño Web Básico - HTML y CSS</title>
+
+    <!-- ===================== -->
+    <!-- CSS INTERNO -->
+    <!-- Fondo y texto -->
+    <!-- ===================== -->
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            margin: 0;
+        }
+
+        main {
+            width: 80%;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <!-- ===================== -->
+    <!-- CSS EXTERNO (SIMULADO) -->
+    <!-- Menú y pie de página -->
+    <!-- ===================== -->
+    <style>
+        nav {
+            background-color: #1e90ff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <!-- CSS EN LÍNEA -->
+        <h1 style="color: #1e90ff; text-align: center;">
+            Diseño Web Básico
+        </h1>
+
+        <h2 style="text-align: center;">
+            HTML y Tipos de CSS
+        </h2>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Contenido</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <section>
+            <h3>¿Qué es HTML?</h3>
+            <p>
+                HTML es el lenguaje que permite estructurar el contenido de una página web.
+            </p>
+        </section>
+
+        <section>
+            <h3>¿Qué es CSS?</h3>
+            <p>
+                CSS se utiliza para dar estilo, colores y diseño a los sitios web.
+            </p>
+        </section>
+
+        <section>
+            <h3>Ventajas del Diseño Web</h3>
+            <ul>
+                <li>Mejor presentación</li>
+                <li>Accesibilidad</li>
+                <li>Experiencia de usuario</li>
+            </ul>
+
+            <p>
+                Más información en:
+                <a href="https://developer.mozilla.org/es/" target="_blank">
+                    MDN Web Docs
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
